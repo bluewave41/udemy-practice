@@ -1,0 +1,8 @@
+name: Issues
+on: issues
+jobs:
+  output:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Output
+        run: echo ${{ github }}
